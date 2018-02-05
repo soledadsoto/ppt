@@ -1,7 +1,7 @@
 /**
  * Clase principal.
- * Versión 1.0
- * Autor: Profesor Entorno Desarrollo
+ * Versión 2.0
+ * Autor: Soledad Soto Ruiz
  */
 public class Game {
 

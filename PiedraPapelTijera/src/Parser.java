@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Parser{
     private MoveWords moves;
     private Scanner reader;
+	private Scanner tokenizer;
 
 
     public Parser(){
@@ -26,7 +27,7 @@ public class Parser{
 	    
 	    String input = reader.nextLine();
 
-	    Scanner tokenizer = new Scanner(input);
+	    tokenizer = new Scanner(input);
         
 	    if(tokenizer.hasNext()) {
 	        // get first word
